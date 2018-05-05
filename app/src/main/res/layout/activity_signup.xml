@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".SignupActivity">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10sp"
+            android:text="First Name"
+            android:textSize="20sp"
+            android:textColor="@color/White"
+            android:layout_marginTop="5dp"
+            />
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/first_name"
+            android:src="@drawable/rounded_rectangle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10sp"
+            android:text="Last Name:"
+            android:textSize="20sp"
+            android:textColor="@color/White"
+            android:layout_marginTop="5dp"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/last_name"
+            android:src="@drawable/rounded_rectangle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10sp"
+            android:text="Date of Birth:"
+            android:textSize="20sp"
+            android:textColor="@color/White"
+            android:layout_marginTop="5dp"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/dob"
+            android:src="@drawable/rounded_rectangle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10sp"
+            android:text="E-mail ID:"
+            android:textSize="20sp"
+            android:textColor="@color/White"
+            android:layout_marginTop="5dp"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/email_id"
+            android:src="@drawable/rounded_rectangle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10sp"
+            android:text="User Name:"
+            android:textSize="20sp"
+            android:textColor="@color/White"
+            android:layout_marginTop="5dp"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/user_name"
+            android:src="@drawable/rounded_rectangle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10sp"
+            android:text="Password:"
+            android:textSize="20sp"
+            android:textColor="@color/White"
+            android:layout_marginTop="5dp"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/password"
+            android:src="@drawable/rounded_rectangle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10sp"
+            android:text="Confirm Password:"
+            android:textSize="20sp"
+            android:textColor="@color/White"
+            android:layout_marginTop="5dp"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/confirm_password"
+            android:src="@drawable/rounded_rectangle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10sp"
+            android:text="State:"
+            android:textSize="20sp"
+            android:textColor="@color/White"
+            android:layout_marginTop="5dp"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/state"
+            android:src="@drawable/rounded_rectangle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10sp"
+            android:text="City"
+            android:textSize="20sp"
+            android:textColor="@color/White"
+            android:layout_marginTop="5dp"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/city"
+            android:src="@drawable/rounded_rectangle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10sp"
+            android:text="Chapter"
+            android:textSize="20sp"
+            android:textColor="@color/White"
+            android:layout_marginTop="5dp"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/chapter"
+            android:src="@drawable/rounded_rectangle"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/signup"
+            android:src="@drawable/rounded"/>
+
+    </LinearLayout>
+</ScrollView>
