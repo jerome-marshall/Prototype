@@ -4,7 +4,7 @@
     <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="sign_up">Sign Up</string>
-    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
     <string name="or">-----------or-----------</string>
     <string name="first_name">First Name</string>
     <string name="signup">SignUp</string>
@@ -15,6 +15,38 @@
     <string name="email_id">Email ID</string>
     <string name="dob">DOB</string>
     <string name="last_name">Last Name</string>
+    <string-array name="states">
+        <item>Choose a State</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Tamil Nadu</item>
+    </string-array>
+    <string-array name="karnataka">
+        <item>Choose a City</item>
+        <item>Bangalore</item>
+        <item>Mangalore</item>
+        <item>Hubli</item>
+    </string-array>
+    <string-array name="kerala">
+        <item>Choose a City</item>
+        <item>Kochi</item>
+        <item>Trissur</item>
+        <item>Trivandrum</item>
+    </string-array>
+    <string-array name="tamilnadu">
+        <item>Choose a City</item>
+        <item>Hosur</item>
+        <item>Krishnagiri</item>
+        <item>Salem</item>
+    </string-array>
+    <string-array name="valid">
+        <item>Choose a VALID option</item>
+    </string-array>
+    <string-array name="chapter">
+        <item>Sample Text 1</item>
+        <item>Sample Text 2</item>
+        <item>Sample Text 3</item>
+    </string-array>
 
 
 </resources>

@@ -7,7 +7,20 @@
     android:background="@drawable/bg"
     tools:context=".LoginActivity">
 
-
+    <ImageView
+        android:layout_width="199dp"
+        android:layout_height="176dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_launcher"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75"
+        android:contentDescription="logo" />
     <EditText
         android:id="@+id/imageView4"
         android:layout_width="300dp"
@@ -42,31 +55,31 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="49dp"
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="275dp"
+        android:layout_height="53dp"
         android:layout_marginStart="8dp"
+        android:background="@drawable/loginbutton"
         android:contentDescription="@string/login"
-        android:src="@drawable/loginbutton"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.294"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="310dp"
-        android:layout_height="60dp"
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="282dp"
+        android:layout_height="59dp"
         android:layout_marginBottom="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:background="@drawable/signupbutton"
         android:contentDescription="@string/signup"
-        android:src="@drawable/signupbutton"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton3"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="@+id/imageButton3"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
         app:layout_constraintVertical_bias="0.0" />
 
@@ -75,14 +88,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
         android:text="@string/or"
         android:textColor="@color/Black"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintEnd_toEndOf="@+id/imageButton3"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintStart_toStartOf="@+id/imageButton3"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
 
     <TextView
         android:id="@+id/textView4"
@@ -92,7 +106,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
         android:text="@string/forgot_password"
-        android:textSize="13sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
