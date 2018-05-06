@@ -11,7 +11,9 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".LoginActivity"
-            android:label="Login">
+            android:label="Login"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,16 +22,24 @@
         </activity>
         <activity
             android:name=".SignupActivity"
-            android:label="Sign Up"/>
+            android:label="Sign Up"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".LoginCompletedActivity"
-            android:label="Login Completed"/>
+            android:label="Login Completed"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".SignupCompletedActivity"
-            android:label="Sign Up Completed"/>
+            android:label="Sign Up Completed"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".ForgotPasswordActivity"
-            android:label="Forgot Password" />
+            android:label="Forgot Password"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
