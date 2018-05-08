@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:paddingStart="10sp"
             android:text="First Name"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:textColor="@color/White"
             android:layout_marginTop="5dp"
             />
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:paddingStart="10sp"
             android:text="Last Name:"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:textColor="@color/White"
             android:layout_marginTop="5dp"
             />
@@ -68,7 +68,7 @@
             android:layout_height="wrap_content"
             android:paddingStart="10sp"
             android:text="Date of Birth:"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:textColor="@color/White"
             android:layout_marginTop="5dp"
             />
@@ -92,7 +92,7 @@
             android:layout_height="wrap_content"
             android:paddingStart="10sp"
             android:text="E-mail ID:"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:textColor="@color/White"
             android:layout_marginTop="5dp"
             />
@@ -116,7 +116,7 @@
             android:layout_height="wrap_content"
             android:paddingStart="10sp"
             android:text="User Name:"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:textColor="@color/White"
             android:layout_marginTop="5dp"
             />
@@ -140,7 +140,7 @@
             android:layout_height="wrap_content"
             android:paddingStart="10sp"
             android:text="Password:"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:textColor="@color/White"
             android:layout_marginTop="5dp"
             />
@@ -164,7 +164,7 @@
             android:layout_height="wrap_content"
             android:paddingStart="10sp"
             android:text="Confirm Password:"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:textColor="@color/White"
             android:layout_marginTop="5dp"
             />
@@ -188,7 +188,7 @@
             android:layout_height="wrap_content"
             android:paddingStart="10sp"
             android:text="State:"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:textColor="@color/White"
             android:layout_marginTop="5dp"
             />
@@ -210,7 +210,7 @@
             android:layout_height="wrap_content"
             android:paddingStart="10sp"
             android:text="City"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:textColor="@color/White"
             android:layout_marginTop="5dp"
             />
@@ -232,7 +232,7 @@
             android:layout_height="wrap_content"
             android:paddingStart="10sp"
             android:text="Chapter"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:textColor="@color/White"
             android:layout_marginTop="5dp"
             />

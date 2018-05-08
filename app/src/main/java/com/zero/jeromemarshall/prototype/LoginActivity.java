@@ -32,7 +32,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 break;
             }
             case R.id.imageButton3: {
-                Intent loginintent = new Intent(this, LoginCompletedActivity.class);
+                Intent loginintent = new Intent(this, HomepageActivity.class);
                 startActivity(loginintent);
                 break;
             }
